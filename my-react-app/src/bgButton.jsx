@@ -21,7 +21,11 @@ className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 roun
 </button>
 <button onClick={() => changeBg('bg-neutral-800')}
  className="bg-neutral-800 hover:bg-black text-white font-bold py-2 px-4 rounded  mr-10 ml-10">
-    red
+    neutral
+</button>
+<button onClick={() => changeBg('bg-black')}
+ className="bg-neutral-500 hover:bg-black text-white font-bold py-2 px-4 rounded  mr-10 ml-10">
+    Reset
 </button>
 </div>
   )
